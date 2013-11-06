@@ -1,3 +1,9 @@
+ndn.cxx-security-tools (0.2~rc1-ppa2~precise1) precise; urgency=low
+
+  * Fixing dependency: for now we still need to have ndnx-dev present
+
+ -- Alexander Afanasyev <alexander.afanasyev@ucla.edu>  Tue, 05 Nov 2013 23:08:24 -0800
+
 ndn.cxx-security-tools (0.2~rc1-ppa1~precise1) precise; urgency=low
 
   * Initial release
