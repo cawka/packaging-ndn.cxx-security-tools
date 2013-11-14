@@ -1,3 +1,16 @@
+ndn.cxx-security-tools (0.2-1ppa1~1saucy1) saucy; urgency=low
+
+  [ Yingdi Yu ]
+  * Add test tools: ndnsec-peek/ndnsec-poke
+  * Adjust I/O of the ndnsec-poke/peek
+  * Add doc for security tools
+
+  [ Alexander Afanasyev ]
+  * Fixing boost search on some platforms
+  * Apparently, some things in boost::asio require linking to pthread library
+
+ -- Alexander Afanasyev <alexander.afanasyev@ucla.edu>  Thu, 14 Nov 2013 10:39:17 -0800
+
 ndn.cxx-security-tools (0.2~rc1-ppa2~precise1) precise; urgency=low
 
   * Fixing dependency: for now we still need to have ndnx-dev present
